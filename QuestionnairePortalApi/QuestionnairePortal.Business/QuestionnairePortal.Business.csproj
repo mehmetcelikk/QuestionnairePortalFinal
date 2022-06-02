@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="Autofac" Version="6.3.0" />
+		<PackageReference Include="Autofac.Extras.DynamicProxy" Version="6.0.1" />
+		<PackageReference Include="Method.ResultsNetStandard" Version="2.5.5" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+    <ProjectReference Include="..\QuestionnairePortal.Core\QuestionnairePortal.Core.csproj" />
+    <ProjectReference Include="..\QuestionnairePortal.DataAccess\QuestionnairePortal.DataAccess.csproj" />
+    <ProjectReference Include="..\QuestionnairePortal.Entities\QuestionnairePortal.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
